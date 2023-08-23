@@ -1,0 +1,227 @@
+-- 10321372166  hc teleporter
+repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer.Character
+
+-- Create a ScreenGui object
+local gui = Instance.new("ScreenGui")
+gui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
+-- Create a Frame object and set its properties
+local frame = Instance.new("Frame")
+frame.Parent = gui
+frame.Size = UDim2.new(0.8, 0, 0.8, 0) -- Change the size to 80% of the screen width and height
+frame.Position = UDim2.new(0.1, 0, 0.1, 0) -- Position the frame 10% from the top and left of the screen
+frame.BackgroundColor3 = Color3.new(0, 0, 0)
+frame.BackgroundTransparency = 0.5
+-- Create a TextLabel object and set its properties
+local textLabel = Instance.new("TextLabel")
+textLabel.Parent = frame
+textLabel.Text = "Credits to the makers of the scripts. I AM NOT RESPONSIBLE IF YOU GET BANNED"
+textLabel.Size = UDim2.new(1, 0, 1, 0)
+textLabel.Position = UDim2.new(0, 0, 0, 0)
+textLabel.TextColor3 = Color3.new(1, 1, 1)
+textLabel.BackgroundTransparency = 1
+textLabel.Font = Enum.Font.SourceSans
+textLabel.TextSize = 24
+-- Create a Tween object to fade out the Frame over 5 seconds
+local tweenFrame = game:GetService("TweenService"):Create(frame, TweenInfo.new(5), {BackgroundTransparency = 1})
+-- Create a Tween object to fade out the TextLabel over 5 seconds
+local tweenText = game:GetService("TweenService"):Create(textLabel, TweenInfo.new(5), {TextTransparency = 1})
+-- Start the Tween animations after a 1 second delay
+wait(1)
+tweenFrame:Play()
+tweenText:Play()
+game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "BEST ROBLOX GUIS" , Enum.ChatColor.White)
+if game.PlaceId == (536102540) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Unknown Hub";
+		Text = "DBZFS Earth";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Earth" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox/main/Unknown%20Hub/Unknown%20Hub.lua"))()
+
+
+elseif game.PlaceId == (882399924) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Unknown Hub";
+		Text = "DBZFS Namek";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Unknown Hub Namek" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox/main/Unknown%20Hub/Unknown%20Hub.lua"))()
+elseif game.PlaceId == (478132461) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Unknown Hub";
+		Text = "DBZFS Space";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Space" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox/main/Unknown%20Hub/Unknown%20Hub.lua"))()
+elseif game.PlaceId == (569994010) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Unknown Hub";
+		Text = "DBZFS Future";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Future" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox/main/Unknown%20Hub/Unknown%20Hub.lua"))()
+
+
+elseif game.PlaceId == (2046990924) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Unknown Hub";
+		Text = "DBZFS Secret World";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Unknown Hub Secret World" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox/main/Unknown%20Hub/Unknown%20Hub.lua"))()
+elseif game.PlaceId == (606849621) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "jailBreak Script";
+		Text = "jailBreak";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in JailBreak GUI" , Enum.ChatColor.White)
+-- Join discord (dsc.gg/sensation) for updates and support
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/730854e5b6499ee91deb1080e8e12ae3.lua"))() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RazBearYT/UniVersal/main/JailBreak"))()
+elseif game.PlaceId == (2753915549) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Blox Fruits Script";
+		Text = "Blox Fruits";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Blox Fruits GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/theALLHACKLoader/main/NukeLoader", true))()
+elseif game.PlaceId == (8737602449) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pls Donate Script";
+		Text = "Pls Donate";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Pls Donate GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
+elseif game.PlaceId == (13045932289) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Inf Yield";
+		Text = "Agachi's Cheepy Clothes";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in INF YIELD BECAUSE THIS GAME ISNT POPULAR >:(" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+               
+elseif game.PlaceId == (4924922222) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Brookhaven RP Script";
+		Text = "BrookHaven";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in brookhaven GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+elseif game.PlaceId == (6839171747) then
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Doors Script";
+		Text = "Doors";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Doors GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/theALLHACKLoader/main/NukeLoader", true))()
+elseif game.PlaceId == (6284583030) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "PSX Script";
+		Text = "Pet Simulator X";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in PSX GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b89cf8bb11cb9c7e8f01216b1eb00792.lua"))()
+	elseif game.PlaceId == (10321372166) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "PSX HC Script";
+		Text = "Pet Simulator X Hardcore";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in PSX HC GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b89cf8bb11cb9c7e8f01216b1eb00792.lua"))()
+elseif game.PlaceId == (7991339063) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Rainbow Friends Script";
+		Text = "Rainbow Friends";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in RB Friends GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
+	elseif game.PlaceId == (1537690962) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Bee Swarm Simulator Script";
+		Text = "Bee Swarm";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Bee Swarm Simulator GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
+	
+	elseif game.PlaceId == (2673595672) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Dashing Simulator Simulator Script";
+		Text = "Dashing Simulator";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Dashing Simulator GUI" , Enum.ChatColor.White)
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/RazBearYT/Dash-sim/main/Script%20Dashing?token=GHSAT0AAAAAACBHFZA267O6OJTWYPFK3UZSZBWY7RA'))()
+
+elseif game.PlaceId == (292439477) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Phantom Forces Script";
+		Text = "Phantom Forces";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Phantom Forces GUI" , Enum.ChatColor.White)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Yousuck780/phantom-forces-new/main/noob"))()
+
+elseif game.PlaceId == (14099623284) then
+	wait(1.2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Inf Yield Script";
+		Text = "Speeder Run";
+		Duration = 4;
+	})
+	wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading in Inf Yield Script" , Enum.ChatColor.White)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end
+
+
+wait(5)
+	game:GetService("Chat"):Chat(game.Players.LocalPlayer.Character.Head , "Loading In Universal!" , Enum.ChatColor.White)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/theALLHACKLoader/main/NukeLoader", true))()
